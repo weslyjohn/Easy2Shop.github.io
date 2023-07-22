@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy2Shop</title>
+    <script src="https://kit.fontawesome.com/29069bb447.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="jj.css">
+
+  </head>
+  <script>
+    let data = window.performance.getEntriesByType("navigation")[0].type;
+   console.log(data);
+   if (data=='reload'){
+          location.assign("index2.html");
+} 
+</script>
+  <body>
+    <nav> 
+        <div class="menu-icon">
+          <span  class="fa-solid fa-bars"></span>
+        </div>
+  
+        <div class="logo">Easy2Shop</div>
+  
+        <div class="nav-items">
+          <li ><a href="main2.html"><i class="fa-solid fa-house"></i> Home</a></li>
+          
+          <li><a href="about.html"><i class="fa-solid fa-address-card"></i> About</a></li>
+          <li><a href="contactus.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+          <li><a href="main.html"><i class="fa-solid fa-user"></i> Sign Out</a></li>
+        </div>
+  
+        <div class="search-icon">
+          <span class="fa-solid fa-magnifying-glass"></span>
+        </div>
+  
+        <div class="cancel-icon">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+  
+        <form action="#">
+          <input type="search" class="search-data" placeholder="Search" required>
+          <button type="submit" class="fas fa-search"></button>
+        </form>
+      </nav> 
+    <section id="tranding">
+            <div class="container1">
+              <h1 class="text-center section-subheading">popular Brands</h1>
+            </div>
+      <div class="container1">
+        <div class="swiper tranding-slider">
+          <div class="swiper-wrapper">
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="images/saree.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+               
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Traditional Sarees
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="images/armaniwomen.jpeg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Meat Ball
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="images/chanelw.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    From Chanel
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="images/vesacem.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    From Versace
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="images/burw.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    From Burberry
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="images/iphone.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    From Apple
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="images/earbu.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Earbuds
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="images/kidswe.jpg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+        
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">
+                      Kids Wear
+                    </h2>
+                    <h3 class="food-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- Slide-end -->
+          </div>
+
+          <div class="tranding-slider-control">
+            <div class="swiper-button-prev slider-arrow">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </div>
+            <div class="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <div class="container">
+        <h2 class="title">Men's Wear</h2>
+        <div class="shop-content">
+    
+    
+          <div class="food-box">
+            <div class="pic">
+              <a href="/product/tshirtsmen.html"><img src="images/shirts/t2.1.jpg" class="food-img">
+            </div></a>
+            <h1 class="food-title">T-Shirts</h1>
+            
+          </div>
+    
+    
+          <div class="food-box">
+            <div class="pic"><a href="/product/shirtsmenp.html"><img src="images/shirts/h2.1.jpg" class="food-img"></div>
+      </a>      <h1 class="food-title">Shirts</h1>
+            
+            
+          </div>
+      
+          <div class="food-box">
+            <div class="pic"><a href="/product/jeans.html"><img src="images/shirts/e9.1.jpg" class="food-img"></div>
+      </a>      <h1 class="food-title">Jeans</h1>
+            
+            
+          </div>
+      
+          <div class="food-box">
+            <div class="pic"><a href="/product/jerkindsmen.html"><img src="images/shirts/n1.1.jpg" class="food-img"></div>
+      </a>      <h1 class="food-title">Jerkins</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="title">Womens's Wear</h2>
+        <div class="shop-content">
+    
+    
+          <div class="food-box" >
+            <div class="pic">
+              <a href="/product/sareesp.html"><img src="images/sarees/s2.1.jpg" class="food-img">
+            </a></div>
+            <h1 class="food-title">sarees</h1>
+            
+          </div>
+    
+    
+          <div class="food-box">
+            <div class="pic"><a href="/product/dresesw.html"><img src="images/dreseswo/d3.3.jpg" class="food-img"></div>
+    </a>        <h1 class="food-title">Casual Dresss</h1>
+            
+            
+          </div>
+      
+          <div class="food-box">
+            <div class="pic"><a href="/product/westerdresp.html"><img src="images/westerndred/w9.1.jpg" class="food-img"></div>
+ </a>           <h1 class="food-title">Western dresss</h1>
+            
+            
+          </div>
+      
+          <div class="food-box">
+            <div class="pic"><a href="/product/jerwom.html"><img src="images/dreseswo/j7.1.jpg" class="food-img"></div>
+    </a>        <h1 class="food-title">Jackets</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="title">Kid's Wear</h2>
+        <div class="shop-content">
+    
+    
+          <div class="food-box">
+            <div class="pic">
+              <a href="/product/kidsp.html"><img src="images/kids/k21.jpg" class="food-img">
+            </div></a>
+            <h1 class="food-title">Frocks</h1>
+            
+          </div>
+    
+    
+          <div class="food-box">
+            <div class="pic"><a href="/product/sherwanip.html"><img src="images/kids/k14 1.jpg" class="food-img"></div>
+       </a>     <h1 class="food-title">Sherwanis</h1>
+            
+            
+          </div>
+      
+          <div class="food-box">
+            <div class="pic"><a href="/product/tsirtskid.html"><img src="images/kids2/k30 2.jpg" class="food-img"></div>
+      </a>      <h1 class="food-title">T-shirts</h1>
+            
+            
+          </div>
+      
+          <div class="food-box">
+            <div class="pic"><a href="/product/jerkinskids.html"><img src="images/dreseswo/j21.jpg" class="food-img"></div>
+     </a>       <h1 class="food-title">Jackets</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="title">Electronics</h2>
+        <div class="shop-content">
+    
+    
+          <div class="food-box">
+            <div class="pic">
+              <a href="/product/mobiles.html"><img src="images/mob/m41.jpg" class="food-img">
+            </div></a>
+            <h1 class="food-title">Mobiles</h1>
+            
+          </div>
+    
+    
+          <div class="food-box">
+            <div class="pic"><a href="/product/lapp.html"><img src="images/mob/l41.jpg" class="food-img"></div>
+          </a>  <h1 class="food-title">Laptops</h1>
+            
+            
+          </div>
+      
+          <div class="food-box">
+            <div class="pic"><a href="/product/earpro.html"><img src="images/mob/e81.jpg" class="food-img"></div>
+          </a>  <h1 class="food-title">Ear Buds</h1>
+            
+            
+          </div>
+      
+          <div class="food-box">
+            <div class="pic"><a href="/product/watchesp.html"><img src="images/mob/w11.jpg" class="food-img"></div>
+          </a>  <h1 class="food-title">Watches</h1>
+          </div>
+        </div>
+      </div>
+      <footer class="footerf">
+        <div class="containerf">
+          <div class="rowf">
+            <div class="footer-colf">
+              <h4>company</h4>
+              <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">our services</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">affiliate program</a></li>
+              </ul>
+            </div>
+            <div class="footer-colf">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="footer-colf">
+              <h4>online shop</h4>
+              <ul>
+                <li><a href="#">watch</a></li>
+                <li><a href="#">bag</a></li>
+                <li><a href="#">shoes</a></li>
+                <li><a href="#">dress</a></li>
+              </ul>
+            </div>
+            <div class="footer-colf">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+     </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="jk.js"></script>
+    <script src="jj.js"></script>
+  </body>
+
+</html>
